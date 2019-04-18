@@ -30,6 +30,7 @@
 
 <body>
 
+    <!-- permanent title -->
     <div id="container">
         <h1>Trivia Game</h1>
 
@@ -38,48 +39,88 @@
         <br>
 
 
-        <div class="row">
-            <h3 class="timer">
-            </h3>
-            <br>
-        </div>
-
         <br>
 
-        <h2>Answer the following questions:</h2>
+        <!--- initial set up for instructions and start button -->
+        <div id="instructions">
 
-
-        <!-- <div class="questionA1" class="row">
-            <div class="question">How many colors are there in a rainbow?
-                <span class="checkmark"></span>
+            <div>
+                <div class="btn btn-dark btn-lg" value='START' id="start">Start
+                </div>
             </div>
 
+            <br>
 
-            <div class="questionA1" class="row">
-                <label class="c">12
-                    <input class="alt" type="radio" name="radio">
-                <span class="checkmark"></span> -->
-        <!-- </label>
-                <label class="c1">7
-                    <input class="alt" type="radio" name="radio">
-                   <span class="checkmark"></span> -->
-        <!-- </label>
-                <label class="c2">5
-                    <input type="radio" name="radio">
-                   <span class="checkmark"></span> -->
-        <!-- </label>
-                <label class="c3">16
-                    <input type="radio" name="radio">
-                <span class="checkmark"></span> -->
-        <!-- </label>
-            </div> -->
+            <div class="row">
+                <div class="col-lg-12">
+                    <h3>Instructions</h3>
+
+                    <br>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>-User must answer as many questions within 2 minutes<p>
 
 
-        <div>
-            <div id="qDiv">
+                            <p>-Results will be displayed when the timer runs out (Timer = 0s)<p>
 
+                                    <p>-If you're ready click START<p>
+
+                                            <p>-Good Luck!<p>
+                                                    <br>
+                </div>
+                <br>
             </div>
         </div>
+
+
+
+
+        <!-- timer & trivia questions-->
+
+        <div id="trivia-game">
+
+
+            <div class="row">
+                <h3 id="timer" class="col - md - 12">
+                </h3>
+                <br>
+            </div>
+
+            <br>
+
+            <h2>Answer the following questions:</h2>
+
+
+
+            <div>
+                <div id="qDiv">
+                </div>
+            </div>
+
+
+            <div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- -Results -->
+    <div id="results">
+        <br>
+        <h3>Results</h3>
+        <br>
+
+
+        <br>
+        <a id="blank"></a>
+
+        <p id="correct"></p>
+        <p id="incorrect"></p>
+        <p id="unanswered"></p>
+    </div>
 
 
 

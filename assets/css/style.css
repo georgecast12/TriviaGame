@@ -7,7 +7,7 @@ background: url('../images/binding_dark.png');
     background: url('../images/tweed.png');
     margin-left: auto;
     margin-right: auto ;
-    height: 1200px;
+    height: auto;
     width: 800px;
     color : white;
     text-align: center;
